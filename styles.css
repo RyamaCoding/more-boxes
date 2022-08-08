@@ -8,11 +8,11 @@
 }
 
 .row{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     max-width: 600px;
     margin: 0 auto -24px auto;
-    display: flex;
-    justify-content: space-between;
 }
 
 .box{
@@ -20,13 +20,8 @@
     margin-bottom: 24px;
 }
 
-.box-small{
-    height: 50px;
-}
-
-.box-tiny{ 
-    width: 30%;
-    height: 50px;
+.box-wrapper{
+    width: 45%;
 }
 
 .tiny-wrapper{
@@ -34,10 +29,15 @@
     justify-content: space-between;
 }
 
-.box-wrapper{
-    width: 45%;
+.smallbox{
+    height: 50px;
 }
 
-.box-large{
+.tiny{
+    width: 30%;
+    height: 50px;
+}
+
+.largebox{
     width: 45%;
 }
